@@ -48,6 +48,7 @@ class Map(object):
     def first_iconic_stop(self):
         pass
 
+# To run the game
 directions = Map('ocean_beach')
 game = IPhone(directions)
 game.play()
