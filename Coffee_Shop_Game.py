@@ -172,7 +172,6 @@ class Map(object):
     def first_iconic_stop(self):
         return self.next_stop(self.starting_point)
 
-# To run the game:
 # set directions to an instance of class Map
 directions = Map('ocean_beach')
 # IPhone is-a direcions, which is an instance of the class Map
